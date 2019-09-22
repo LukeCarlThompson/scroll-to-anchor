@@ -1,0 +1,38 @@
+@import '../../node_modules/modern-normalize/modern-normalize.css';
+
+h1 {
+  color: rebeccapurple;
+}
+
+.menu {
+  position: sticky;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 60px;
+  top: 0;
+  background: rgb(0, 22, 122);
+  padding: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  a {
+    color: white;
+  }
+}
+
+.section {
+  height: 50vh;
+  margin: 20px;
+}
+
+.-one {
+  background-color: rgb(147, 255, 174);
+}
+.-two {
+  background-color: rgb(129, 255, 255);
+}
+.-three {
+  background-color: rgb(255, 197, 110);
+}
+.-four {
+  background-color: rgb(255, 148, 192);
+}
