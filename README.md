@@ -1,4 +1,14 @@
-# js-library-template
+# Scroll To Anchor
+### A minimal smooth scroll function
+
+Use like this (defaults shown).
+``` javascript
+const smoothScroll = new ScrollToAnchor({
+  offset: 0, // integer in pixels from the top of window
+  duration: 1000, // integer in ms the scroll animation will go for
+});
+```
+
 ### A template built for creating javascript libraries and general tinkering.
 
 It uses gulp, scss, browserSync, Rollup and buble.
