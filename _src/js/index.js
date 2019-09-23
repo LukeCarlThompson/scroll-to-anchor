@@ -1,4 +1,4 @@
-import ScrollToAnchor from '../../dist/libtemplate.esm.js';
+import ScrollToAnchor from '../../dist/scrolltoanchor.esm.js';
 
 const smoothScroll = new ScrollToAnchor({
   offset: 70,
